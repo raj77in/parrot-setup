@@ -2,8 +2,7 @@
 void func(void)
 {
   int a  = 0;
-  char buf [12];
-  int b = 1;
+  char buf [100];
 
   gets(buf);
 }
