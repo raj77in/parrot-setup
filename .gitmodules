@@ -5,5 +5,5 @@
 	path = kali-setup
 	url = https://github.com/raj77in/kali-setup
 [submodule "/home/amitag/amitag/git/peda"]
-	path = /home/amitag/amitag/git/peda
+	path = git/peda
 	url = https://github.com/longld/peda
