@@ -46,3 +46,8 @@ docker run -it --rm -v $PWD:/mnt bash
   ## you can now compile your 32 bit binary in docker.
 ```
 
+## Fonts installation
+
+```
+sudo apt install ttf-unifont ttfautohint ttf-xfree86-nonfree-syriac/rolling ttf-xfree86-nonfree ttf-ubuntu-font-family/rolling fonts-ubuntu-title/rolling fonts-noto fonts-hack\*
+```
