@@ -51,3 +51,12 @@ docker run -it --rm -v $PWD:/mnt bash
 ```
 sudo apt install ttf-unifont ttfautohint ttf-xfree86-nonfree-syriac/rolling ttf-xfree86-nonfree ttf-ubuntu-font-family/rolling fonts-ubuntu-title/rolling fonts-noto fonts-hack\*
 ```
+
+## VIM setup
+
+```
+sudo apt install vim-youcompleteme vim-python-jedi m-gui-common vim-gtk3 vim-autopep8 vim-athena python3-venv
+ln -s parrot-setup/kali-setup/dotfiles/vim .vim
+ln -s .vim/vimrc.d/vimrc .vimrc
+```
+
