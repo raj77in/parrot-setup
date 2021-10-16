@@ -61,3 +61,13 @@ ln -s parrot-setup/kali-setup/dotfiles/vim .vim
 ln -s .vim/vimrc.d/vimrc .vimrc
 ```
 
+
+## Speed up your parrot VM
+
+You can use `systemd-analyze blame` to check the service that are causing more impact to startup time.
+
+Here are some of the services that you can disable if not required.
+
+```
+sudo systemctl disable --now blueman-mechanism phpsessionclean doker exim4-base wpa_supplicant containerd packagekit
+```
